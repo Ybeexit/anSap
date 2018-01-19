@@ -74,6 +74,7 @@ object Form1: TForm1
       ItemHeight = 15
       TabOrder = 1
       Text = 'ComboBox'
+      OnChange = ComboBoxChange
     end
   end
   object StatusBar: TStatusBar

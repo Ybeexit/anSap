@@ -20,6 +20,7 @@ type
     N3: TMenuItem;
     procedure Label3Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
+    procedure ComboBoxChange(Sender: TObject);
   private
     { Private declarations }
   public
@@ -55,6 +56,11 @@ begin
 
   Excel.ActiveWorkbook.Close;
   Excel.Application.Quit;
+end;
+
+procedure TForm1.ComboBoxChange(Sender: TObject);
+begin
+//sd
 end;
 
 end.
